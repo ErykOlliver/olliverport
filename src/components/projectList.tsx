@@ -3,7 +3,7 @@ import React from "react"
 type props = {
     icon: React.ReactNode,
     title: string,
-    children: React.ReactNode
+    children?: React.ReactNode
 }
 
 
@@ -16,7 +16,13 @@ export default function ProjectList(props: props) {
             </header>
             <div className="no-scroll hover:cursor-grab overflow-x-auto w-full justify-start items-center p-2.5">
                 <div className="flex w-fit gap-2.5">
-                    {props.children}
+                    {
+                        props.children ? props.children
+                            :
+                            <div>
+                                <span>Nenhum Item Ainda</span>
+                            </div>
+                    }
                 </div>
             </div>
         </div>

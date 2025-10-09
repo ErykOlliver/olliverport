@@ -1,5 +1,7 @@
 import { Star } from "lucide-react";
 import ProjectList from "../components/projectList";
+import ProjectItem from "../components/projectItem";
+import { SiTailwindcss } from "react-icons/si";
 
 export default function Projects() {
     return (
@@ -16,40 +18,7 @@ export default function Projects() {
                 </header>
                 <div className="w-full flex flex-col gap-2.5 justify-center items-center">
                     <ProjectList title="Carros" icon={<Star size={32} />}>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                    </ProjectList>
-                    <ProjectList title="Carros" icon={<Star size={32} />}>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
-                        <div className="w-60 bg-black text-white h-80">carros</div>
+                        <ProjectItem title="Meu Primeiro Site" description="Sitezinho fileiro" thumb={'/thumb.png'} stack={[<SiTailwindcss />]} />
                     </ProjectList>
                 </div>
             </div>
