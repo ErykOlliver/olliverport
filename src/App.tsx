@@ -22,7 +22,6 @@ function App() {
       <main className="pt-24 w-full h-full">
         <Outlet />
       </main>
-      <img src="../public/Shape.png" className="fixed top-0 -z-10 right-0 animate-slide" alt="" />
     </div>
   )
 }

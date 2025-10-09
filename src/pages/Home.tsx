@@ -1,24 +1,51 @@
+import { SiJavascript, SiNextdotjs } from "react-icons/si";
+import StackCarousel from "../components/stackCarousel";
+
 export default function Home() {
     return (
         <section className="w-full h-full flex justify-center items-center">
             <div className="w-[90%] flex justify-between items-center h-full">
-                <article>
-                    <div>
+                <article className="text-pure_graphite font-poppins w-[50%] flex flex-col gap-5 relative animate-slide-to-right">
+                    <div className="flex flex-col gap-5">
                         <span className="text-4xl font-light">Olá Mundo, eu sou</span>
-                        <h1 className="flex flex-col font-poppins font-semibold text-8xl">Eryk Olliver</h1>
-                        <h2>DESENVOLVEDOR • FULL-STACK</h2>
+                        <h1 className="flex flex-col font-semibold text-8xl">Eryk Olliver</h1>
+                        <h2 className="text-2xl font-light">DESENVOLVEDOR • FULL-STACK</h2>
                     </div>
-                    <p>
-                        Desenvolvo aplicações modernas e eficientes, com foco em interfaces acessíveis e
-                        experiências marcantes, sempre mantendo qualidade no código e usabilidade no centro.
+                    <p className="text-xl w-full">
+                        Desenvolvo <span className="text-deep_sea"> aplicações </span>modernas e <span className="text-deep_sea"> eficientes </span>, com foco em <span className="text-deep_sea"> interfaces </span>
+                        acessíveis e <span className="text-deep_sea"> experiências </span> marcantes, sempre mantendo qualidade no <span className="text-deep_sea"> código </span> e usabilidade no centro.
                     </p>
-                    <a href="">Contratar Serviço</a>
+                    <a href="#" className="font-bold text-2xl border-white border-2 w-full h-fit py-5 text-center rounded-lg transition-shadow hover:shadow-[0_0_20px] shadow-blue_breeze text-air_cold bg-gradient-to-r from-deep_sea to-blue_breeze ">Contratar Serviço</a>
                     <div>
-                        <h3>Minha Stack de Tecnologias</h3>
-
+                        <h3 className="font-medium text-2xl">Minha Stack de Tecnologias</h3>
+                        <StackCarousel stack={[
+                            { Icon: '/stack/astro-icon.svg', title: 'Astro' },
+                            { Icon: '/stack/expo-icon.svg', title: 'Expo' },
+                            { Icon: '/stack/fastify-icon.svg', title: 'Fastify' },
+                            { Icon: '/stack/firebase-icon.svg', title: 'Firebase' },
+                            { Icon: '/stack/git-icon.svg', title: 'Git' },
+                            { Icon: '/stack/github-icon.svg', title: 'GitHub' },
+                            { Icon: '/stack/nextjs-icon.svg', title: 'NextJS' },
+                            { Icon: '/stack/nodejs-icon-alt.svg', title: 'NodeJS' },
+                            { Icon: '/stack/vercel-icon.svg', title: 'Vercel' },
+                            { Icon: '/stack/vitejs.svg', title: 'Vite' },
+                            { Icon: '/stack/webpack.svg', title: 'Webpack' },
+                            { Icon: '/stack/figma.svg', title: 'Figma' },
+                            { Icon: '/stack/wordpress-icon.svg', title: 'WordPress' },
+                            { Icon: '/stack/tailwindcss-icon.svg', title: 'TailwindCSS' },
+                            { Icon: '/stack/unity.svg', title: 'Unity' },
+                            { Icon: '/stack/notion-icon.svg', title: 'Notion' },
+                            { Icon: '/stack/mongodb-icon.svg', title: 'MongoDB' },
+                            { Icon: '/stack/eslint.svg', title: 'ESLint' },
+                            { Icon: '/stack/css-3.svg', title: 'CSS3' },
+                            { Icon: '/stack/bootstrap.svg', title: 'Bootstrap' },
+                            { Icon: '/stack/express.svg', title: 'Express' },
+                        ]} />
                     </div>
                 </article>
-                <img src="../../public/ErykOlliver.png" alt="" />
+                <img src="/ErykOlliver.png" alt="" className="animate-slide-to-left fixed right-15 top-36" />
+                <img src="/Shape.png" className="fixed top-0 -z-10 right-0 animate-slide-to-left" alt="" />
+
             </div>
         </section>
     )
