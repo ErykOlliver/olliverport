@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 
 interface mainNavProps {
     title: string,
@@ -21,11 +21,12 @@ type props = {
 
 export default function Navbar(props: props) {
     let navigate = useNavigate();
+    const location = useLocation()
     return (
-        <header className="w-full py-5 flex justify-center items-center text-pure_graphite top-0 left-0 fixed z-10">
+        <header className="w-full bg-transparent py-5 flex justify-center items-center text-pure_graphite top-0 left-0 fixed z-10">
             <div className="flex justify-between items-center w-[90%]">
                 <div className="flex justify-center items-center gap-4">
-                    <img className="size-14 hover:cursor-pointer" src="../../public/eo.svg" onClick={() => navigate('/')} alt="eryk olliver logo" aria-label="eryk olliver logo" />
+                    <img className="size-14 hover:cursor-pointer" src="/eo.svg" onClick={() => navigate('/')} alt="eryk olliver logo" aria-label="eryk olliver logo" />
                     <nav>
                         <ul className="flex gap-2.5 justify-center items-center">
                             {props.main_nav?.map(item => (
@@ -38,15 +39,17 @@ export default function Navbar(props: props) {
                     </nav>
                 </div>
 
-                <nav className="flex gap-2.5 justify-center items-center">
-                    {props.social_nav?.map(item => (
-                        <div aria-label={item.title} className="group text-air_cold border size-9 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(item.href)}>
-                            {item.icon}
-                            <span className="sr-only">{item.title}</span>
-                            <p className={`absolute -bottom-4 animate-viewpop shadow-2xl text-sm rounded-md border border-white hidden group-hover:flex py-1.5 px-2.5 text-air_cold`}>{item.title}</p>
-                        </div>
-                    ))}
-                </nav>
+                {location.pathname === '/' && (
+                    <nav className="flex gap-2.5 justify-center items-center animate-slide-to-left">
+                        {props.social_nav?.map(item => (
+                            <div aria-label={item.title} className="group  text-air_cold border size-9 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(item.href)}>
+                                {item.icon}
+                                <span className="sr-only">{item.title}</span>
+                                <p className={`absolute -bottom-4 animate-viewpop shadow-2xl text-sm rounded-md border border-white hidden group-hover:flex py-1.5 px-2.5 text-air_cold`}>{item.title}</p>
+                            </div>
+                        ))}
+                    </nav>
+                )}
             </div>
         </header>
     )

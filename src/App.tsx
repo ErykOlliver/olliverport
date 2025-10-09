@@ -6,7 +6,7 @@ import { SiGithub, SiInstagram, SiLinkedin, SiWhatsapp, SiYoutube } from 'react-
 
 function App() {
   return (
-    <div className="bg-air_cold h-dvh w-dvw relative z-0 overflow-hidden">
+    <div className="h-dvh w-dvw relative z-0 overflow-hidden">
       <Navbar main_nav={[
         { title: 'Projetos', href: '/#' },
         { title: 'O que posso fazer por você', href: '/#' },
@@ -19,7 +19,7 @@ function App() {
           { title: 'Linkedin', icon: <SiLinkedin className="size-5" />, href: 'https://www.linkedin.com/in/eryk-olliver-44a0a5295/' },
           { title: 'Whatsapp', icon: <SiWhatsapp className="size-5" />, href: 'https://wa.me/557183032858' },
         ]} />
-      <main className="pt-24 w-full h-full">
+      <main className=" w-full h-full">
         <Outlet />
       </main>
     </div>

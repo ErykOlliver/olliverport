@@ -2,7 +2,10 @@ import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
     return (
-        <section className="w-full h-full flex justify-center items-center">
+        <section className="Home bg-air_cold/95 w-full h-full flex justify-center items-center">
+            <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
+                <source src="/public/fogbg.mp4" type="video/mp4" />
+            </video>
             <div className="w-[90%] flex justify-between items-center h-full">
                 <article className="text-pure_graphite font-poppins w-[50%] flex flex-col gap-5 relative animate-slide-to-right">
                     <div className="flex flex-col gap-5">
@@ -42,8 +45,8 @@ export default function Home() {
                         ]} />
                     </div>
                 </article>
-                <img src="/ErykOlliver.png" alt="" className="animate-slide-to-left fixed right-15 top-36" />
-                <img src="/Shape.png" className="fixed top-0 -z-10 right-0 animate-slide-to-left" alt="" />
+                <img src="/ErykOlliver.png" alt="" className="animate-slide-to-left z-1 fixed right-15 top-36" />
+                <img src="/Shape.png" className="fixed top-0 -z-0 right-0 animate-slide-to-left" alt="" />
 
             </div>
         </section>
