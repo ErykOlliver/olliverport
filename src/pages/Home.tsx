@@ -1,4 +1,3 @@
-import { SiJavascript, SiNextdotjs } from "react-icons/si";
 import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
