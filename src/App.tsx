@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="bg-air_cold h-dvh w-dvw relative z-0 overflow-hidden">
       <Navbar main_nav={[
-        { title: 'Projetos', href: '#' },
-        { title: 'O que posso fazer por você', href: '#' },
-        { title: 'Habilidades', href: '#' },
-        { title: 'Contato', href: 'about' }]}
+        { title: 'Projetos', href: '/#' },
+        { title: 'O que posso fazer por você', href: '/#' },
+        { title: 'Habilidades', href: '/#' },
+        { title: 'Contato', href: '/about' }]}
         social_nav={[
           { title: 'GitHub', icon: <SiGithub className="size-5" />, href: 'https://github.com/ErykOlliver' },
           { title: 'Youtube', icon: <SiYoutube className="size-5" />, href: 'https://www.youtube.com/@erykolliver' },
