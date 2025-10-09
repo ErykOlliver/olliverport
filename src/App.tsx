@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="h-dvh w-dvw relative z-0 overflow-hidden">
       <Navbar main_nav={[
-        { title: 'Projetos', href: '/#' },
+        { title: 'Projetos', href: '/projects' },
         { title: 'O que posso fazer por você', href: '/#' },
         { title: 'Habilidades', href: '/#' },
         { title: 'Contato', href: '/about' }]}

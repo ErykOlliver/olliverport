@@ -10,6 +10,9 @@
     display: none;
 }
 
+.c-project-list::-webkit-scrollbar {
+    display: none;
+}
 
 @theme {
     --font-poppins: "Poppins", sans-serif;
