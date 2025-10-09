@@ -6,11 +6,7 @@
     padding: 0;
 }
 
-.carousel::-webkit-scrollbar {
-    display: none;
-}
-
-.c-project-list::-webkit-scrollbar {
+.no-scroll::-webkit-scrollbar {
     display: none;
 }
 

@@ -9,7 +9,7 @@ type props = {
 
 export default function StackCarousel(props: props) {
     return (
-        <div className="carousel w-full flex overflow-x-hidden">
+        <div className="no-scroll w-full flex overflow-x-hidden">
             <div className={`flex gap-4 ${props.stack.length > 5 ? 'animate-carousel-spin' : 'animate-none'} justify-center items-center p-2`}>
                 {props.stack.map(stack => (
                     <div className="flex size-16 p-3.5 justify-center  items-center rounded-lg border-2">

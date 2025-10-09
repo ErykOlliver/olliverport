@@ -14,7 +14,7 @@ export default function ProjectList(props: props) {
                 {props.icon}
                 <h2 className="text-3xl">{props.title}</h2>
             </header>
-            <div className="c-project-list hover:cursor-grab overflow-x-auto w-full justify-start items-center border p-2.5">
+            <div className="no-scroll hover:cursor-grab overflow-x-auto w-full justify-start items-center p-2.5">
                 <div className="flex w-fit gap-2.5">
                     {props.children}
                 </div>
