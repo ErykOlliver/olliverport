@@ -10,7 +10,7 @@ function App() {
       <Navbar main_nav={[
         { title: 'Projetos', href: '/projects' },
         { title: 'O que posso fazer por você', href: '/services' },
-        { title: 'Habilidades', href: '/#' },
+        { title: 'Habilidades', href: '/skills' },
         { title: 'Contato', href: '/about' }]}
         social_nav={[
           { title: 'GitHub', icon: <SiGithub className="size-5" />, href: 'https://github.com/ErykOlliver' },

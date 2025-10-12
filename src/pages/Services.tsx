@@ -47,7 +47,7 @@ export default function Services() {
                         thumb="../../public/services/ad.svg"
                     />
                 </div>
-                <div className="w-full flex flex-col gap-2.5 justify-center items-center">
+                <div className="w-full flex flex-col gap-2.5 mt-4 justify-center items-center">
                     <h2 className="text-3xl w-220 text-center">Não encontrou o que procura? Me chame! Podemos criar juntos uma solução sob medida para o seu projeto.</h2>
                     <button
                         onClick={() => navigate('/contact')}
