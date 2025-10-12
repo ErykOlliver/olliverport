@@ -19,32 +19,32 @@ export default function Services() {
                     <ServiceItem
                         title="Landing pages modernas com design responsivo"
                         description="Landing pages com visual moderno, focadas em conversão e totalmente responsivas. Perfeitas para lançamentos, capturas de leads ou apresentar seu produto com impacto e profissionalismo."
-                        thumb="/lp.svg"
+                        thumb="/services/lp.svg"
                     />
                     <ServiceItem
                         title="Sites institucionais e portfólios para marcas e profissionais"
                         description="Sites institucionais que transmitem credibilidade e reforçam a identidade da sua marca. Seja para empresas ou profissionais, entrego um visual limpo, funcional e adaptado ao seu público."
-                        thumb="/tp.svg"
+                        thumb="/services/tp.svg"
                     />
                     <ServiceItem
                         title="Blogs dinâmicos com painel de controle"
                         description="Blogs rápidos, otimizados para SEO e fáceis de atualizar. Você mesmo pode gerenciar os conteúdos com um painel intuitivo, sem depender de programação ou ferramentas complicadas."
-                        thumb="/blog.svg"
+                        thumb="/services/blog.svg"
                     />
                     <ServiceItem
                         title="E-commerces com carrinho, checkout e painel de produtos"
                         description="Lojas virtuais leves, seguras e eficientes para você vender seus produtos online. Incluo carrinho, checkout e um painel completo para gerenciar pedidos, preços e estoque."
-                        thumb="/ecomer.svg"
+                        thumb="/services/ecomer.svg"
                     />
                     <ServiceItem
                         title="Painéis administrativos para gerenciar dados internos"
                         description="Dashboards personalizados que facilitam a visualização e gestão de dados do seu negócio. Tudo adaptado às suas necessidades, com gráficos, filtros e uma interface limpa."
-                        thumb="/dash.svg"
+                        thumb="/services/dash.svg"
                     />
                     <ServiceItem
                         title="Aplicativos modernos para dispositivos móveis"
                         description="Aplicativos móveis para Android e iOS com uma única base de código. Ideal para MVPs, soluções internas ou projetos que precisam estar nos dois sistemas com rapidez e economia."
-                        thumb="/ad.svg"
+                        thumb="/services/ad.svg"
                     />
                 </div>
                 <div className="w-full flex flex-col gap-2.5 mt-4 justify-center items-center">

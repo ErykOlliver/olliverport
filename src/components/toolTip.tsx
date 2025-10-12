@@ -42,7 +42,7 @@ export default function ToolTip(props: props) {
 
     return (
         <>
-            {render()}
+        { render() }
         </>
     )
 }
