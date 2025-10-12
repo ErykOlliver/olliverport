@@ -9,6 +9,7 @@ import Projects from './pages/Projects'
 import Services from './pages/Services'
 import ProjectDetails from './pages/ProjectDetails'
 import Skills from './pages/Skills'
+import Contact from './pages/Contact'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -33,7 +34,11 @@ const router = createBrowserRouter([{
     {
       path: '/skills',
       element: <Skills />
-    }
+    },
+    {
+      path: '/contact',
+      element: <Contact />
+    },
   ]
 },
 ])

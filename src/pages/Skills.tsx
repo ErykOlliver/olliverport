@@ -1,7 +1,6 @@
-import { useNavigate } from "react-router-dom";
 import SkillList from "../components/skillList";
 import SkillItem from "../components/skillItem";
-import { SiAstro, SiBootstrap, SiCss3, SiEslint, SiExpo, SiExpress, SiFastify, SiFigma, SiFirebase, SiGit, SiGithub, SiJavascript, SiMongodb, SiNextbilliondotai, SiNextdotjs, SiNodedotjs, SiNotion, SiReact, SiTailwindcss, SiTypescript, SiUnity, SiVercel, SiVite, SiWebpack, SiWordpress } from "react-icons/si";
+import { SiAstro, SiBootstrap, SiCss3, SiEslint, SiExpo, SiExpress, SiFastify, SiFigma, SiFirebase, SiGit, SiGithub, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript, SiUnity, SiVercel, SiVite, SiWebpack, SiWordpress } from "react-icons/si";
 import { Layout, LucideWorkflow, PencilRuler, School } from "lucide-react";
 import { RiEnglishInput } from "react-icons/ri";
 

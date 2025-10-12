@@ -4,18 +4,10 @@ interface mainNavProps {
     title: string,
     href: string
 }
-interface socialNavProps {
-    icon: React.ReactNode,
-    href: string
-}
-
-interface socialNavProps {
-    title: string
-}
 
 type props = {
     main_nav?: mainNavProps[]
-    social_nav?: socialNavProps[]
+    social_nav?: React.ReactNode[]
 }
 
 
@@ -42,11 +34,7 @@ export default function Navbar(props: props) {
                 {location.pathname === '/' && (
                     <nav className="flex gap-2.5 justify-center items-center animate-slide-to-left">
                         {props.social_nav?.map(item => (
-                            <div aria-label={item.title} className="group  text-air_cold border size-9 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(item.href)}>
-                                {item.icon}
-                                <span className="sr-only">{item.title}</span>
-                                <p className={`absolute -bottom-10 animate-viewpop shadow-2xl text-sm rounded-md border border-white hidden group-hover:flex py-1.5 px-2.5 text-air_cold`}>{item.title}</p>
-                            </div>
+                            item
                         ))}
                     </nav>
                 )}
