@@ -73,7 +73,7 @@ export default function ProjectItem(props: props) {
                 onClick={() => navigate(`/projects/${props.id}`, {
                     state: props
                 })}
-                className="w-full hover:cursor-pointer transition-shadow duration-300 hover:shadow-sm shadow-blue_breeze rounded-lg text-white border-white bg-blue_breeze border-2 font-semibold text-2xl p-2.5 text-center">
+                className="w-full hover:cursor-pointer transition-shadow duration-300 hover:shadow-sm shadow-blue_breeze rounded-lg text-white border-white bg-blue_breeze border-2 font-medium text-xl p-2.5 text-center">
                 Ver Projeto
             </button>
         </div >

@@ -19,9 +19,9 @@ export default function ProjectDetails() {
                     </button>
                     <h1 className="text-2xl font-semibold">{project.title}</h1>
                 </header>
-                <div className="w-7xl px-6">
+                <div className="w-full px-6">
                     <div className="w-full h-96">
-                        <img src={project.thumb} className="w-full rounded-lg h-full object-cover" />
+                        <img src={project.thumb} className="w-full rounded-lg border-2 border-white h-full object-cover" />
                     </div>
                     <div className="grid grid-cols-3 gap-12 mb-16 w-full justify-between mt-10">
                         <div className="col-span-2">
@@ -33,13 +33,13 @@ export default function ProjectDetails() {
                                 <div className="flex flex-col gap-1.5">
                                     <h2 className="text-2xl font-semibold">Detalhes</h2>
                                     <div className="w-full grid grid-cols-2">
-                                        <div className="border p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
+                                        <div className="border flex flex-col p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
                                             <span className="text-pure_graphite/60">Função</span>
                                             <h3 className="text-xl font-medium ">{project.function}</h3>
                                         </div>
-                                        <div className="border p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
+                                        <div className="border flex flex-col p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
                                             <span className="text-pure_graphite/60">Designer</span>
-                                            <h3 onClick={() => window.open(project.designer_page)} className="text-xl hover:cursor-pointer hover:underline font-medium ">{project.designer}</h3>
+                                            <a href={project.designer_page} target="_blank" className="text-xl hover:cursor-pointer hover:underline font-medium ">{project.designer}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -58,8 +58,8 @@ export default function ProjectDetails() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col gap-1.5">
-                                    <button className="bg-blue_breeze p-2.5 flex gap-1.5 items-center justify-center hover:cursor-pointer text-xl rounded-md border-2 border-white text-air_cold" onClick={() => window.open(project.page)}> Visualizar Página <ExternalLink /></button>
-                                    <button className="bg-pure_graphite p-2.5 flex gap-1.5 items-center justify-center hover:cursor-pointer text-xl rounded-md border-2 border-white text-air_cold" onClick={() => window.open(project.github)}>GitHub <SiGithub /></button>
+                                    <a className="bg-blue_breeze p-2.5 flex font-medium gap-1.5 items-center justify-center hover:cursor-pointer text-xl rounded-md border-2 border-white text-air_cold" href={project.page} target="_blank"> Visualizar Página <ExternalLink /></a>
+                                    <a className="bg-pure_graphite p-2.5 flex gap-1.5 font-medium items-center justify-center hover:cursor-pointer text-xl rounded-md border-2 border-white text-air_cold" href={project.github} target="_blank">GitHub <SiGithub /></a>
                                 </div>
                                 <div className="flex flex-col">
                                     <h2 className="text-2xl font-semibold">Plataforma</h2>

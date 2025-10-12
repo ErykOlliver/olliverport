@@ -8,8 +8,8 @@ export default function Projects() {
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
                 <source src="/public/fogbg.mp4" type="video/mp4" />
             </video>
-            <div className="no-scroll w-[90%] pb-10 flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
-                <header className="flex flex-col w-full mb-2.5">
+            <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
+                <header className="flex flex-col w-full ">
                     <div className="animate-slide-to-right flex flex-col w-166 gap-3.5">
                         <h1 className="text-5xl font-semibold">Biblioteca de projetos</h1>
                         <p className="text-pure_graphite/60 italic text-xl ">aqui você encontra os projetos que construí ao longo da minha jornada. Cada um carrega estudo, prática e evolução.</p>
