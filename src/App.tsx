@@ -9,7 +9,7 @@ function App() {
     <div className="h-dvh w-dvw relative z-0 overflow-hidden">
       <Navbar main_nav={[
         { title: 'Projetos', href: '/projects' },
-        { title: 'O que posso fazer por você', href: '/#' },
+        { title: 'O que posso fazer por você', href: '/services' },
         { title: 'Habilidades', href: '/#' },
         { title: 'Contato', href: '/about' }]}
         social_nav={[

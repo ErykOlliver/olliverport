@@ -4,6 +4,7 @@
 :root {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .no-scroll::-webkit-scrollbar {
@@ -24,8 +25,8 @@
     --color-golden_sun: #F5A623;
     /* text-primary */
     --color-pure_graphite: #1C1E21;
-    --animate-slide-to-left: slide-to-left 0.5s ease-out;
-    --animate-slide-to-right: slide-to-right 0.5s ease-out;
+    --animate-slide-to-left: slide-to-left 0.5s ease-out forwards;
+    --animate-slide-to-right: slide-to-right 0.5s ease-out forwards;
     --animate-carousel-spin: carousel-spin 10s infinite linear;
     --animate-viewpop: view-pop 0.15s ease-out;
     --shadow-buttons: '10px 10px 30px';
@@ -33,20 +34,24 @@
 
 @keyframes slide-to-left {
     from {
+        opacity: 0;
         translate: 100%;
     }
 
     to {
+        opacity: 1;
         translate: 0;
     }
 }
 
 @keyframes slide-to-right {
     from {
+        opacity: 0;
         translate: -100%;
     }
-
+    
     to {
+        opacity: 1;
         translate: 0;
     }
 }
