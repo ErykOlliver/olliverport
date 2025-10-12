@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router-dom";
 import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
-    const navigate = useNavigate()
     return (
         <section className="Home bg-air_cold/90 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
