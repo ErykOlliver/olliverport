@@ -1,7 +1,7 @@
 import { Crown, Layers, Pickaxe } from "lucide-react";
 import ProjectList from "../components/projectList";
 import ProjectItem from "../components/projectItem";
-import { SiCashapp, SiEslint, SiFirebase, SiGit, SiGithub, SiJavascript, SiReact, SiSharp, SiTailwindcss, SiTypescript, SiUnity, SiVite } from "react-icons/si";
+import { SiEslint, SiFirebase, SiGit, SiGithub, SiJavascript, SiReact, SiSharp, SiTailwindcss, SiTypescript, SiUnity, SiVite } from "react-icons/si";
 
 export default function Projects() {
     return (
