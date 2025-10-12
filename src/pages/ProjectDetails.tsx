@@ -9,7 +9,7 @@ export default function ProjectDetails() {
     return (
         <section className=" bg-air_cold/90 pt-28 w-full h-full flex justify-center items-start">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
-                <source src="/public/fogbg.mp4" type="video/mp4" />
+                <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="no-scroll overflow-y-auto border-2 border-white shadow-md rounded-lg animate-slide-to-left bg-gradient-to-tl from-gray-200 to-air_cold p-2.5 w-[70%]  h-[90%] flex flex-col gap-1.5 text-pure_graphite font-poppins justify-start items-center ">
                 <header className=" flex flex-row w-full justify-between px-10 py-4 items-center">

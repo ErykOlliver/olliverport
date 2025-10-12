@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <section className=" bg-air_cold/90 pt-28 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
-                <source src="/public/fogbg.mp4" type="video/mp4" />
+                <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
                 <header className="flex flex-col w-full ">
@@ -22,8 +22,8 @@ export default function Projects() {
                             title="Pixel Power - Transforme ideias em Pixels"
                             summary="Landing Page para venda de curso de pixel art"
                             description="Pixel Power é um projeto ambicioso que combina educação digital com uma experiência de compra fluida. A plataforma foi desenvolvida para artistas digitais que desejam monetizar seus conhecimentos em pixel art."
-                            thumb={'/thumbs/pixel.webp'}
-                            video="/thumbs/pixel.webm"
+                            thumb={'/pixel.webp'}
+                            video="/pixel.webm"
                             stack={[
                                 'Javascript',
                                 'Vite',
@@ -47,8 +47,8 @@ export default function Projects() {
                             title="Geesh - Gerendiador de energias renováveis"
                             summary="Torne o consumo de energia sustentável simples, acessível e eficiente."
                             description="O Geesh é um aplicativo desenvolvido por alunos do 3º ano de Mecatrônica do CETEP RM, com a missão de tornar o gerenciamento de energia renovável simples, acessível e eficiente."
-                            thumb='/thumbs/geesh.webp'
-                            video="/thumbs/geesh.webm"
+                            thumb='/geesh.webp'
+                            video="/geesh.webm"
                             stack={[
                                 'Typescript',
                                 'Firebase',
@@ -78,7 +78,7 @@ export default function Projects() {
                             title="Duuts"
                             summary="Duuts acaba de ser chamado para uma nova missão: entrar em uma casa mal-assombrada e eliminar qualquer criatura sobrenatural que encontrar. Ele conseguirá sair vivo?"
                             description="Olá, amigos! Este é meu primeiro jogo. Criei este projeto como uma forma de aprender e me desafiar. Espero que você goste de pelo menos parte disso. Estou aberto a sugestões e feedback porque, quem sabe, talvez eu possa atualizá-lo e melhorá-lo?"
-                            thumb={'/thumbs/duuts.png'}
+                            thumb={'/duuts.png'}
                             stack={[
                                 'CSharp',
                                 'Git',
@@ -96,7 +96,7 @@ export default function Projects() {
                             title="Flying Sparrow"
                             summary="Acha que sabe voar? Pense novamente! Sobreviva ao impossível – Controle um pardal desajeitado que desafia as leis da física (e do bom senso). Seu maior inimigo? Gravidade… e sua própria falta de habilidade."
                             description="Prepare-se para rir, chorar e cair (muito). Em Flying Sparrow, você controla um pardal com menos coordenação que uma gelatina em terremoto. A única missão? Tentar voar. O resultado? Catastrófico. Com um único toque na tela, você controla tudo. Parece fácil? Nem um pouco. Mas ei, é só continuar tentando… até o chão te abraçar de novo."
-                            thumb={'/thumbs/sparrow.png'}
+                            thumb={'/sparrow.png'}
                             stack={[
                                 'CSharp',
                                 'Git',

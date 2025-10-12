@@ -5,9 +5,9 @@ import { SiInstagram, SiLinkedin, SiWhatsapp } from "react-icons/si"
 
 export default function Contact() {
     return (
-        <section className=" bg-air_cold/90 w-full h-full flex justify-center items-center">
+        <section className="bg-air_cold/90 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
-                <source src="/public/fogbg.mp4" type="video/mp4" />
+                <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
                 <div className="w-fit h-full flex flex-col gap-2.5 justify-center items-center">

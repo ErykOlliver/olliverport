@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <section className="Home bg-air_cold/90 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
-                <source src="/public/fogbg.mp4" type="video/mp4" />
+                <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="w-[90%] flex justify-between items-center h-full">
                 <article className="text-pure_graphite font-poppins w-[50%] flex flex-col gap-5 relative animate-slide-to-right">
@@ -21,27 +21,27 @@ export default function Home() {
                     <div>
                         <h3 className="font-medium text-2xl">Minha Stack de Tecnologias</h3>
                         <StackCarousel stack={[
-                            { Icon: '/stack/astro-icon.svg', title: 'Astro' },
-                            { Icon: '/stack/expo-icon.svg', title: 'Expo' },
-                            { Icon: '/stack/fastify-icon.svg', title: 'Fastify' },
-                            { Icon: '/stack/firebase-icon.svg', title: 'Firebase' },
-                            { Icon: '/stack/git-icon.svg', title: 'Git' },
-                            { Icon: '/stack/github-icon.svg', title: 'GitHub' },
-                            { Icon: '/stack/nextjs-icon.svg', title: 'NextJS' },
-                            { Icon: '/stack/nodejs-icon-alt.svg', title: 'NodeJS' },
-                            { Icon: '/stack/vercel-icon.svg', title: 'Vercel' },
-                            { Icon: '/stack/vitejs.svg', title: 'Vite' },
-                            { Icon: '/stack/webpack.svg', title: 'Webpack' },
-                            { Icon: '/stack/figma.svg', title: 'Figma' },
-                            { Icon: '/stack/wordpress-icon.svg', title: 'WordPress' },
-                            { Icon: '/stack/tailwindcss-icon.svg', title: 'TailwindCSS' },
-                            { Icon: '/stack/unity.svg', title: 'Unity' },
-                            { Icon: '/stack/notion-icon.svg', title: 'Notion' },
-                            { Icon: '/stack/mongodb-icon.svg', title: 'MongoDB' },
-                            { Icon: '/stack/eslint.svg', title: 'ESLint' },
-                            { Icon: '/stack/css-3.svg', title: 'CSS3' },
-                            { Icon: '/stack/bootstrap.svg', title: 'Bootstrap' },
-                            { Icon: '/stack/express.svg', title: 'Express' },
+                            { Icon: '/astro-icon.svg', title: 'Astro' },
+                            { Icon: '/expo-icon.svg', title: 'Expo' },
+                            { Icon: '/fastify-icon.svg', title: 'Fastify' },
+                            { Icon: '/firebase-icon.svg', title: 'Firebase' },
+                            { Icon: '/git-icon.svg', title: 'Git' },
+                            { Icon: '/github-icon.svg', title: 'GitHub' },
+                            { Icon: '/nextjs-icon.svg', title: 'NextJS' },
+                            { Icon: '/nodejs-icon-alt.svg', title: 'NodeJS' },
+                            { Icon: '/vercel-icon.svg', title: 'Vercel' },
+                            { Icon: '/vitejs.svg', title: 'Vite' },
+                            { Icon: '/webpack.svg', title: 'Webpack' },
+                            { Icon: '/figma.svg', title: 'Figma' },
+                            { Icon: '/wordpress-icon.svg', title: 'WordPress' },
+                            { Icon: '/tailwindcss-icon.svg', title: 'TailwindCSS' },
+                            { Icon: '/unity.svg', title: 'Unity' },
+                            { Icon: '/notion-icon.svg', title: 'Notion' },
+                            { Icon: '/mongodb-icon.svg', title: 'MongoDB' },
+                            { Icon: '/eslint.svg', title: 'ESLint' },
+                            { Icon: '/css-3.svg', title: 'CSS3' },
+                            { Icon: '/bootstrap.svg', title: 'Bootstrap' },
+                            { Icon: '/express.svg', title: 'Express' },
                         ]} />
                     </div>
                 </article>
