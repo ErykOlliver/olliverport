@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
+    const navigate = useNavigate()
     return (
         <section className="Home bg-air_cold/90 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
@@ -17,7 +19,7 @@ export default function Home() {
                         Desenvolvo <span className="text-deep_sea"> aplicações </span>modernas e <span className="text-deep_sea"> eficientes </span>, com foco em <span className="text-deep_sea"> interfaces </span>
                         acessíveis e <span className="text-deep_sea"> experiências </span> marcantes, sempre mantendo qualidade no <span className="text-deep_sea"> código </span> e usabilidade no centro.
                     </p>
-                    <a href="#" className="font-bold text-2xl border-white border-2 w-full h-fit py-5 text-center rounded-lg transition-shadow duration-300 hover:shadow-[0_0_20px] shadow-blue_breeze text-air_cold bg-blue_breeze ">Contratar Serviço</a>
+                    <a href="/contact" className="font-bold text-2xl border-white border-2 w-full h-fit py-5 text-center rounded-lg transition-shadow duration-300 hover:shadow-[0_0_20px] shadow-blue_breeze text-air_cold bg-blue_breeze ">Contratar Serviço</a>
                     <div>
                         <h3 className="font-medium text-2xl">Minha Stack de Tecnologias</h3>
                         <StackCarousel stack={[
