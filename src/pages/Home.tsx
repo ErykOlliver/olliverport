@@ -2,24 +2,24 @@ import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
     return (
-        <section className="Home bg-air_cold/90 w-full h-full flex justify-center items-center">
+        <section className="Home sm:bg-air_cold/90 bg-air_cold/95 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
                 <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="w-[90%] flex justify-between items-center h-full">
-                <article className="text-pure_graphite font-poppins w-[50%] flex flex-col gap-5 relative animate-slide-to-right">
-                    <div className="flex flex-col gap-5">
-                        <span className="text-4xl font-light">Olá Mundo, eu sou</span>
-                        <h1 className="flex flex-col font-semibold text-8xl">Eryk Olliver</h1>
-                        <h2 className="animate-pulse text-2xl font-light uppercase italic">DESENVOLVEDOR • FRONT-END</h2>
+                <article className="flex text-pure_graphite font-poppins w-full sm:w-[50%] flex-col gap-5 relative animate-slide-to-right">
+                    <div className="flex flex-col gap-2 sm:gap-5 text-center sm:text-start items-center sm:items-start justify-center">
+                        <span className="sm:text-4xl text-xl font-light">Olá Mundo, eu sou</span>
+                        <h1 className="flex flex-col font-semibold text-5xl sm:text-8xl">Eryk Olliver</h1>
+                        <h2 className="animate-pulse text-xl sm:text-2xl font-light uppercase italic">DESENVOLVEDOR • FRONT-END</h2>
                     </div>
-                    <p className="text-xl w-full">
+                    <p className="sm:text-xl text-sm w-full text-center sm:text-start">
                         Desenvolvo <span className="text-deep_sea"> aplicações </span>modernas e <span className="text-deep_sea"> eficientes </span>, com foco em <span className="text-deep_sea"> interfaces </span>
                         acessíveis e <span className="text-deep_sea"> experiências </span> marcantes, sempre mantendo qualidade no <span className="text-deep_sea"> código </span> e usabilidade no centro.
                     </p>
-                    <a href="/contact" className="font-bold text-2xl border-white border-2 w-full h-fit py-5 text-center rounded-lg transition-shadow duration-300 hover:shadow-[0_0_20px] shadow-blue_breeze text-air_cold bg-blue_breeze ">Contratar Serviço</a>
-                    <div>
-                        <h3 className="font-medium text-2xl">Minha Stack de Tecnologias</h3>
+                    <a href="/contact" className="sm:font-bold font-medium text-md sm:text-2xl border-white sm:border-2 border w-full h-fit py-3 sm:py-5 text-center rounded-md sm:rounded-lg transition-shadow duration-300 hover:shadow-[0_0_20px] shadow-blue_breeze text-air_cold bg-blue_breeze ">Contratar Serviço</a>
+                    <div className="flex flex-col gap-1.5 items-center sm:items-start">
+                        <h3 className="font-medium text-xl sm:text-2xl">Minha Stack de Tecnologias</h3>
                         <StackCarousel stack={[
                             { Icon: '/stack/astro-icon.svg', title: 'Astro' },
                             { Icon: '/stack/expo-icon.svg', title: 'Expo' },
@@ -45,8 +45,8 @@ export default function Home() {
                         ]} />
                     </div>
                 </article>
-                <img src="/ErykOlliver.png" alt="" className="animate-slide-to-left z-1 duration-500 fixed right-15 top-36" />
-                <img src="/Shape.png" className="fixed top-0 -z-0 right-0 animate-slide-to-left duration-1000" alt="" />
+                <img src="/ErykOlliver.png" alt="" className="animate-slide-to-left z-1 duration-500 sm:fixed hidden sm:inline sm:right-15 sm:top-36 w-25 sm:w-130" />
+                <img src="/Shape.png" className="fixed top-0 -z-0 right-0 animate-slide-to-left duration-1000 w-80 hidden sm:flex sm:w-160" alt="" />
 
             </div>
         </section>

@@ -10,19 +10,18 @@ export default function Contact() {
                 <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
-                <div className="w-fit h-full flex flex-col gap-2.5 justify-center items-center">
-                    <h1 className="font-semibold text-5xl animate-slide-to-left">Vamos conversar?</h1>
-                    <p className="text-2xl text-pure_graphite/60 animate-slide-to-left" >Entre em contato comigo pelo canal que preferir. Respondo em poucas horas.</p>
-                    <div className="flex w-full items-center justify-between">
+                <div className="w-fit h-full flex flex-col gap-2.5 justify-center items-center text-center">
+                    <h1 className="font-semibold sm:text-5xl animate-slide-to-left">Vamos conversar?</h1>
+                    <p className="sm:text-2xl text-sm text-pure_graphite/60 animate-slide-to-left" >Entre em contato comigo pelo canal que preferir. Respondo em poucas horas.</p>
+                    <div className="flex sm:flex-row flex-col w-full items-center justify-between gap-1.5">
                         <div className="flex gap-1.5 text-xl items-center animate-slide-to-left">
-                            <Mail />
-                            <span>contato.erykolliver@gmail.com</span>
+                            <Mail className="size-4" />
+                            <span className="text-sm">contato.erykolliver@gmail.com</span>
                         </div>
                         <nav className="flex gap-2.5 justify-center items-center animate-slide-to-left">
-
-                            <ToolTip color="black" title='Instagram' icon={<SiInstagram className="size-5" />} href='https://www.instagram.com/erykolliver_?igsh=cTJ2ZXdncWFmMjg5' />
-                            <ToolTip color="black" title='Linkedin' icon={<SiLinkedin className="size-5" />} href='https://www.linkedin.com/in/eryk-olliver-44a0a5295/' />
-                            <ToolTip color="black" title='Whatsapp' icon={<SiWhatsapp className="size-5" />} href='https://wa.me/557183032858' />
+                            <ToolTip color="black" title='Instagram' icon={<SiInstagram className="w-full h-full" />} href='https://www.instagram.com/erykolliver_?igsh=cTJ2ZXdncWFmMjg5' />
+                            <ToolTip color="black" title='Linkedin' icon={<SiLinkedin className="w-full h-full" />} href='https://www.linkedin.com/in/eryk-olliver-44a0a5295/' />
+                            <ToolTip color="black" title='Whatsapp' icon={<SiWhatsapp className="w-full h-full" />} href='https://wa.me/557183032858' />
                         </nav>
                     </div>
                 </div>
