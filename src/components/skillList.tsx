@@ -11,12 +11,12 @@ export default function SkillList(props: props) {
     return (
         <div className="w-full  flex flex-col  gap-3">
             <header className="animate-slide-to-right flex border-b gap-1.5  py-1.5 w-full justify-start items-center">
-                <h2 className="text-3xl font-medium">{props.title}</h2>
+                <h2 className="lg:text-3xl text-xl font-medium">{props.title}</h2>
             </header>
             <div className="no-scroll w-full h-full  justify-start items-center p-2.5">
                 {
                     props.children ?
-                        <div className="flex flex-wrap w-full h-full items-center gap-4">
+                        <div className="lg:flex lg:flex-wrap grid grid-cols-2 w-full h-full items-center lg:gap-4 gap-2">
                             {props.children}
                         </div>
                         :

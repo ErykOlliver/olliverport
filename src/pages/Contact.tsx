@@ -15,8 +15,8 @@ export default function Contact() {
                     <p className="lg:text-2xl text-sm text-pure_graphite/60 animate-slide-to-left" >Entre em contato comigo pelo canal que preferir. Respondo em poucas horas.</p>
                     <div className="flex lg:flex-row flex-col w-full items-center justify-between gap-1.5">
                         <div className="flex gap-1.5 text-xl items-center animate-slide-to-left">
-                            <Mail className="size-4" />
-                            <span className="text-sm">contato.erykolliver@gmail.com</span>
+                            <Mail className="lg:size-6 size-4" />
+                            <span className="lg:text-xl text-sm">contato.erykolliver@gmail.com</span>
                         </div>
                         <nav className="flex gap-2.5 justify-center items-center animate-slide-to-left">
                             <ToolTip color="black" title='Instagram' icon={<SiInstagram className="w-full h-full" />} href='https://www.instagram.com/erykolliver_?igsh=cTJ2ZXdncWFmMjg5' />
