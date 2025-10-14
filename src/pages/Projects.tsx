@@ -4,19 +4,19 @@ import ProjectItem from "../components/projectItem";
 
 export default function Projects() {
     return (
-        <section className=" bg-air_cold/90 pt-28 w-full h-full flex justify-center items-center">
+        <section className=" bg-air_cold/90 lg:pt-28 pt-15 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
                 <source src="/fogbg.mp4" type="video/mp4" />
             </video>
             <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
                 <header className="flex flex-col w-full ">
-                    <div className="animate-slide-to-right flex flex-col w-166 gap-3.5">
-                        <h1 className="text-5xl font-semibold">Biblioteca de projetos</h1>
-                        <p className="text-pure_graphite/60 italic text-xl ">aqui você encontra os projetos que construí ao longo da minha jornada. Cada um carrega estudo, prática e evolução.</p>
+                    <div className="animate-slide-to-right flex flex-col lg:w-166 w-full gap-3.5 ">
+                        <h1 className="lg:text-5xl text-2xl font-semibold">Biblioteca de projetos</h1>
+                        <p className="text-pure_graphite/60 italic lg:text-xl text-sm">aqui você encontra os projetos que construí ao longo da minha jornada. Cada um carrega estudo, prática e evolução.</p>
                     </div>
                 </header>
                 <div className="w-full flex flex-col gap-1.5 justify-center items-center">
-                    <ProjectList title="Em Destaque" icon={<Crown size={32} />}>
+                    <ProjectList title="Em Destaque" icon={<Crown className="lg:size-8 size-6" />}>
                         <ProjectItem
                             id={1}
                             title="Pixel Power - Transforme ideias em Pixels"
@@ -70,9 +70,9 @@ export default function Projects() {
                             designer_page="/"
                         />
                     </ProjectList>
-                    <ProjectList title="Front-End" icon={<Layers size={32} />}>
+                    <ProjectList title="Front-End" icon={<Layers className="lg:size-8 size-6" />}>
                     </ProjectList>
-                    <ProjectList title="GameDev" icon={<Pickaxe size={32} />}>
+                    <ProjectList title="GameDev" icon={<Pickaxe className="lg:size-8 size-6" />}>
                         <ProjectItem
                             id={3}
                             title="Duuts"

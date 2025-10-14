@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="h-dvh w-dvw relative z-0 overflow-hidden">
       <div className="w-full">
-        <div className="sm:hidden flex">
+        <div className="lg:hidden flex">
           <Sheet>
             <SheetTrigger asChild className="">
               <Menu className="size-9 absolute right-2 top-2" />
@@ -42,7 +42,7 @@ function App() {
             </SheetContent>
           </Sheet>
         </div>
-        <div className="w-full hidden sm:flex">
+        <div className="w-full hidden lg:flex">
           <Navbar main_nav={[
             { title: 'Projetos', href: '/projects' },
             { title: 'O que posso fazer por você', href: '/services' },

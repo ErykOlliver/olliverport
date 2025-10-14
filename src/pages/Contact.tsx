@@ -11,9 +11,9 @@ export default function Contact() {
             </video>
             <div className="no-scroll w-[90%] flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
                 <div className="w-fit h-full flex flex-col gap-2.5 justify-center items-center text-center">
-                    <h1 className="font-semibold sm:text-5xl animate-slide-to-left">Vamos conversar?</h1>
-                    <p className="sm:text-2xl text-sm text-pure_graphite/60 animate-slide-to-left" >Entre em contato comigo pelo canal que preferir. Respondo em poucas horas.</p>
-                    <div className="flex sm:flex-row flex-col w-full items-center justify-between gap-1.5">
+                    <h1 className="font-semibold lg:text-5xl animate-slide-to-left">Vamos conversar?</h1>
+                    <p className="lg:text-2xl text-sm text-pure_graphite/60 animate-slide-to-left" >Entre em contato comigo pelo canal que preferir. Respondo em poucas horas.</p>
+                    <div className="flex lg:flex-row flex-col w-full items-center justify-between gap-1.5">
                         <div className="flex gap-1.5 text-xl items-center animate-slide-to-left">
                             <Mail className="size-4" />
                             <span className="text-sm">contato.erykolliver@gmail.com</span>

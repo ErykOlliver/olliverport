@@ -14,7 +14,7 @@ export default function ToolTip(props: props) {
             case "white":
 
                 return (
-                    <button aria-label={props.title} className="group border-white text-air_cold border sm:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
+                    <button aria-label={props.title} className="group border-white text-air_cold border lg:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
                         {props.icon}
                         <span className="sr-only">{props.title}</span>
                         <p className={`absolute -bottom-10 animate-viewpop shadow-2xl text-sm rounded-md border border-white hidden group-hover:flex py-1.5 px-2.5 text-air_cold`}>{props.title}</p>
@@ -23,7 +23,7 @@ export default function ToolTip(props: props) {
 
             case 'black':
                 return (
-                    <button aria-label={props.title} className="group border-pure_graphite text-pure_graphite border sm:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
+                    <button aria-label={props.title} className="group border-pure_graphite text-pure_graphite border lg:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
                         {props.icon}
                         <span className="sr-only">{props.title}</span>
                         <p className={`absolute -bottom-10 animate-viewpop shadow-2xl text-sm rounded-md border border-pure_graphite hidden group-hover:flex py-1.5 px-2.5 text-pure_graphite`}>{props.title}</p>
@@ -31,7 +31,7 @@ export default function ToolTip(props: props) {
                 )
             default:
                 return (
-                    <button aria-label={props.title} className="group border-white text-air_cold border sm:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
+                    <button aria-label={props.title} className="group border-white text-air_cold border lg:size-9 size-8 p-2 flex justify-center items-center rounded-full hover:cursor-pointer hover:text-blue_breeze hover:size-10 ease-out transition-all" onClick={() => window.open(props.href)}>
                         {props.icon}
                         <span className="sr-only">{props.title}</span>
                         <p className={`absolute -bottom-10 animate-viewpop shadow-2xl text-sm rounded-md border border-white hidden group-hover:flex py-1.5 px-2.5 text-air_cold`}>{props.title}</p>
