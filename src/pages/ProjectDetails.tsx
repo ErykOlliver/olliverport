@@ -33,11 +33,11 @@ export default function ProjectDetails() {
                                 <div className="flex flex-col gap-1.5">
                                     <h2 className="lg:text-2xl text-lg font-semibold">Detalhes</h2>
                                     <div className="w-full grid gap-2 grid-cols-2">
-                                        <div className="border flex flex-col p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
+                                        <div className="border flex flex-col p-4 border-white justify-center shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
                                             <span className="text-pure_graphite/60 lg:text-xl text-md">Função</span>
                                             <h3 className="lg:text-xl font-medium text-sm ">{project.function}</h3>
                                         </div>
-                                        <div className="border flex flex-col p-4 border-white shadow-md rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
+                                        <div className="border flex flex-col p-4 border-white shadow-md justify-center rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
                                             <span className="text-pure_graphite/60 lg:text-xl text-md">Designer</span>
                                             <a href={project.designer_page} target="_blank" className="lg:text-xl text-sm hover:cursor-pointer hover:underline font-medium ">{project.designer}</a>
                                         </div>
