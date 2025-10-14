@@ -2,8 +2,8 @@ import { Outlet } from "react-router-dom"
 import Navbar from "./components/navbar"
 import { SiGithub, SiInstagram, SiLinkedin, SiWhatsapp, SiYoutube } from 'react-icons/si'
 import ToolTip from "./components/toolTip"
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from "./components/ui/sheet"
-import { EllipsisVertical, Menu, SquareChevronLeft } from "lucide-react"
+import { Sheet, SheetContent, SheetTrigger } from "./components/ui/sheet"
+import { SquareChevronLeft } from "lucide-react"
 
 
 

@@ -1,6 +1,6 @@
 import * as React from "react"
 import * as SheetPrimitive from "@radix-ui/react-dialog"
-import { SquareChevronRight, XIcon } from "lucide-react"
+import { SquareChevronRight } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 
