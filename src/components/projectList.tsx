@@ -10,15 +10,15 @@ type props = {
 
 export default function ProjectList(props: props) {
     return (
-        <div className="w-full  flex flex-col  gap-3">
+        <div className="w-full flex flex-col overflow-x-hidden gap-3">
             <header className="animate-slide-to-right flex border-b border-pure_graphite gap-1.5  py-1.5 w-full justify-start items-center">
                 {props.icon}
                 <h2 className="lg:text-3xl text-xl font-medium">{props.title}</h2>
             </header>
-            <div className="no-scroll hover:cursor-grab overflow-x-auto w-full justify-start items-center p-2.5">
+            <div className="no-scroll hover:cursor-grab overflow-x-auto w-full justify-start items-center p-1.5">
                 {
                     props.children ?
-                        <div className="flex w-fit gap-2.5">
+                        <div className="flex w-fit gap-2.5 ">
                             {props.children}
                         </div>
                         :

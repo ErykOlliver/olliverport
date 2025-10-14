@@ -10,7 +10,7 @@ export default function Skills() {
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
                 <source src="/fogbg.mp4" type="video/mp4" />
             </video>
-            <div className="no-scroll w-[90%] pb-10 flex flex-col gap-2.5 overflow-y-auto text-pure_graphite font-poppins justify-start items-center h-full">
+            <div className="no-scroll w-[90%] pb-10 flex flex-col gap-2.5 overflow-y-auto overflow-x-hidden text-pure_graphite font-poppins justify-start items-center h-full">
                 <header className="flex animate-slide-to-right flex-col w-full">
                     <div className="animate-slide-to-right flex flex-col lg:w-166 w-full gap-3.5">
                         <h1 className="lg:text-5xl text-2xl font-semibold">Meu Grimório de Habilidades.</h1>
