@@ -14,8 +14,8 @@ type props = {
 export default function Navbar(props: props) {
     const location = useLocation()
     return (
-        <header className="w-full bg-transparent  py-5 flex justify-center items-center text-pure_graphite top-0 left-0 fixed z-10">
-            <div className="flex lg:flex-row flex-col gap-2.5 justify-between items-center lg:w-[90%] w-full">
+        <header className="w-full bg-transparent py-5 flex justify-center items-center text-pure_graphite top-0 left-0 fixed h-full lg:h-fit lg:z-10">
+            <div className="flex lg:flex-row flex-col gap-2.5 justify-between items-center lg:w-[90%] w-[80%] ">
                 <div className="flex lg:flex-row flex-col lg:justify-center lg:items-center items-center gap-4">
                     <a href="/">
                         <img className="size-14 hover:cursor-pointer" src="/eo.svg" alt="eryk olliver logo" aria-label="eryk olliver logo" />

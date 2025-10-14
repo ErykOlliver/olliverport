@@ -2,7 +2,7 @@ import StackCarousel from "../components/stackCarousel";
 
 export default function Home() {
     return (
-        <section className="Home lg:bg-air_cold/90 bg-air_cold/95 w-full h-full flex justify-center items-center">
+        <section className="Home lg:bg-air_cold/90 bg-air_cold/95 lg:pt-28 pt-15 w-full h-full flex justify-center items-center">
             <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover -z-1 opacity-50">
                 <source src="/fogbg.mp4" type="video/mp4" />
             </video>
