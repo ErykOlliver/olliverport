@@ -52,17 +52,17 @@ export default function ProjectItem(props: props) {
                     {props.stack.length > 1 ? (
                         <>
                             {props.stack.slice(0, 2).map(stack => (
-                                <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-[#D9D9D9]/70">
+                                <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-gradient-to-tl from-gray-200 to-air_cold">
                                     {stack}
                                 </p>
                             ))}
-                            <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-[#D9D9D9]/70">
+                            <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-gradient-to-tl from-gray-200 to-air_cold">
                                 + {props.stack.length - 2}
                             </p>
                         </>
                     ) : (
                         props.stack.map(stack => (
-                            <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-[#D9D9D9]/70">
+                            <p className="text-md rounded-md p-2 animate-slide-to-left  flex border border-white text-pure_graphite/70  justify-center items-center bg-gradient-to-tl from-gray-200 to-air_cold">
                                 {stack}
                             </p>
                         ))
