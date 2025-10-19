@@ -39,7 +39,7 @@ export default function ProjectDetails() {
                                         </div>
                                         <div className="border flex flex-col p-4 border-white shadow-md justify-center rounded-md bg-gradient-to-tl from-gray-200 to-air_cold">
                                             <span className="text-pure_graphite/60 lg:text-xl text-md">Designer</span>
-                                            <a href={project.designer_page} target="_blank" className="lg:text-xl text-sm hover:cursor-pointer hover:underline font-medium ">{project.designer}</a>
+                                            <a href={project.designer_page} target="_blank" className="lg:text-xl text-sm hover:cursor-pointer hover:bg-deep_sea underline font-medium ">{project.designer}</a>
                                         </div>
                                     </div>
                                 </div>

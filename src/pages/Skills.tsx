@@ -1,6 +1,6 @@
 import SkillList from "../components/skillList";
 import SkillItem from "../components/skillItem";
-import { SiAstro, SiBootstrap, SiCss3, SiEslint, SiExpo, SiExpress, SiFastify, SiFigma, SiFirebase, SiGit, SiGithub, SiJavascript, SiMongodb, SiNextdotjs, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript, SiUnity, SiVercel, SiVite, SiWebpack, SiWordpress } from "react-icons/si";
+import { SiCss3, SiExpo, SiExpress, SiFigma, SiFirebase, SiGit, SiGithub, SiHtml5, SiJavascript, SiNodedotjs, SiNotion, SiReact, SiTailwindcss, SiTypescript, SiVercel, SiVite } from "react-icons/si";
 import { Layout, LucideWorkflow, PencilRuler, School } from "lucide-react";
 import { RiEnglishInput } from "react-icons/ri";
 
@@ -29,24 +29,26 @@ export default function Skills() {
                     <SkillItem type="hard" ico={<SiReact className="w-full h-full" />} title="React" />
                     <SkillItem type="hard" ico={<SiJavascript className="w-full h-full" />} title="Javascript" />
                     <SkillItem type="hard" ico={<SiTypescript className="w-full h-full" />} title="Typescript" />
-                    <SkillItem type="hard" ico={<SiEslint className="w-full h-full" />} title="ESList" />
-                    <SkillItem type="hard" ico={<SiNextdotjs className="w-full h-full" />} title="NextJS" />
+                    {/* <SkillItem type="hard" ico={<SiEslint className="w-full h-full" />} title="ESList" /> */}
+                    {/* <SkillItem type="hard" ico={<SiNextdotjs className="w-full h-full" />} title="NextJS" /> */}
                     <SkillItem type="hard" ico={<SiGit className="w-full h-full" />} title="Git" />
                     <SkillItem type="hard" ico={<SiGithub className="w-full h-full" />} title="GitHub" />
                     <SkillItem type="hard" ico={<SiFirebase className="w-full h-full" />} title="Firebase" />
-                    <SkillItem type="hard" ico={<SiFastify className="w-full h-full" />} title="Fastify" />
-                    <SkillItem type="hard" ico={<SiAstro className="w-full h-full" />} title="Astro" />
+                    {/* <SkillItem type="hard" ico={<SiFastify className="w-full h-full" />} title="Fastify" /> */}
+                    {/* <SkillItem type="hard" ico={<SiAstro className="w-full h-full" />} title="Astro" /> */}
                     <SkillItem type="hard" ico={<SiExpo className="w-full h-full" />} title="Expo" />
                     <SkillItem type="hard" ico={<SiNodedotjs className="w-full h-full" />} title="NodeJS" />
                     <SkillItem type="hard" ico={<SiVercel className="w-full h-full" />} title="Vercel" />
                     <SkillItem type="hard" ico={<SiFigma className="w-full h-full" />} title="Figma" />
-                    <SkillItem type="hard" ico={<SiWebpack className="w-full h-full" />} title="Webpack" />
-                    <SkillItem type="hard" ico={<SiWordpress className="w-full h-full" />} title="Wordpress" />
+                    {/* <SkillItem type="hard" ico={<SiWebpack className="w-full h-full" />} title="Webpack" /> */}
+                    {/* <SkillItem type="hard" ico={<SiWordpress className="w-full h-full" />} title="Wordpress" /> */}
                     <SkillItem type="hard" ico={<SiTailwindcss className="w-full h-full" />} title="TailwindCSS" />
-                    <SkillItem type="hard" ico={<SiUnity className="w-full h-full" />} title="Unity" />
-                    <SkillItem type="hard" ico={<SiMongodb className="w-full h-full" />} title="MongoDB" />
+                    {/* <SkillItem type="hard" ico={<SiUnity className="w-full h-full" />} title="Unity" /> */}
+                    {/* <SkillItem type="hard" ico={<SiMongodb className="w-full h-full" />} title="MongoDB" /> */}
                     <SkillItem type="hard" ico={<SiCss3 className="w-full h-full" />} title="CSS3" />
-                    <SkillItem type="hard" ico={<SiBootstrap className="w-full h-full" />} title="Bootstrap" />
+                    <SkillItem type="hard" ico={<SiHtml5 className="w-full h-full" />} title="HTML5" />
+                    <SkillItem type="hard" ico={<SiNotion className="w-full h-full" />} title="Notion" />
+                    {/* <SkillItem type="hard" ico={<SiBootstrap className="w-full h-full" />} title="Bootstrap" /> */}
                     <SkillItem type="hard" ico={<SiExpress className="w-full h-full" />} title="Express" />
                 </SkillList>
             </div>
