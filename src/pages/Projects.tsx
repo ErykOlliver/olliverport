@@ -71,6 +71,29 @@ export default function Projects() {
                         />
                     </ProjectList>
                     <ProjectList title="Front-End" icon={<Layers className="lg:size-8 size-6" />}>
+                        <ProjectItem
+                            id={5}
+                            title="Gym24"
+                            summary="Torne o consumo de energia sustentável simples, acessível e eficiente."
+                            description="O Geesh é um aplicativo desenvolvido por alunos do 3º ano de Mecatrônica do CETEP RM, com a missão de tornar o gerenciamento de energia renovável simples, acessível e eficiente."
+                            thumb='/thumbs/gym24.png'
+                            stack={[
+                                'Typescript',
+                                'Figma',
+                                'Vite',
+                                'Git',
+                                'GitHub',
+                                'ESLint',
+                                'TailwindCSS',
+                                'React',
+                            ]}
+                            plataform="Aplicação Web"
+                            github="https://github.com/ErykOlliver/Gym24"
+                            page="https://teamgeesh.github.io/geesh-website/"
+                            function="Programador"
+                            designer="VEHA"
+                            designer_page="https://www.figma.com/community/file/1260888393015798147/landing-page-gym-template-in-figma"
+                        />
                     </ProjectList>
                     <ProjectList title="GameDev" icon={<Pickaxe className="lg:size-8 size-6" />}>
                         <ProjectItem
