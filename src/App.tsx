@@ -19,7 +19,7 @@ function App() {
             <SheetContent side="right" className="animate-slide-to-left w-full">
               <Navbar main_nav={[
                 { title: 'Projetos', href: '/projects' },
-                { title: 'O que posso fazer por você', href: '/services' },
+                // { title: 'O que posso fazer por você', href: '/services' },
                 { title: 'Habilidades', href: '/skills' },
                 { title: 'Contato', href: '/contact' }]}
                 social_nav={[
@@ -37,7 +37,7 @@ function App() {
         <div className="w-full hidden lg:flex">
           <Navbar main_nav={[
             { title: 'Projetos', href: '/projects' },
-            { title: 'O que posso fazer por você', href: '/services' },
+            // { title: 'O que posso fazer por você', href: '/services' },
             { title: 'Habilidades', href: '/skills' },
             { title: 'Contato', href: '/contact' }]}
             social_nav={[

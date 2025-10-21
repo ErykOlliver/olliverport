@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import App from './App'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import Services from './pages/Services'
+// import Services from './pages/Services'
 import ProjectDetails from './pages/ProjectDetails'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
@@ -27,10 +27,10 @@ const router = createBrowserRouter([{
       path: '/projects/:id',
       element: <ProjectDetails />
     },
-    {
+/*     {
       path: '/services',
       element: <Services />
-    },
+    }, */
     {
       path: '/skills',
       element: <Skills />
