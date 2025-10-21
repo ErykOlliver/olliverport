@@ -74,8 +74,8 @@ export default function Projects() {
                         <ProjectItem
                             id={5}
                             title="Gym24"
-                            summary="Torne o consumo de energia sustentável simples, acessível e eficiente."
-                            description="O Geesh é um aplicativo desenvolvido por alunos do 3º ano de Mecatrônica do CETEP RM, com a missão de tornar o gerenciamento de energia renovável simples, acessível e eficiente."
+                            summary="Sessão de teste gratuita com um treinador"
+                            description="Gym24 é uma academia líder localizada perto da estação de metrô Grushevka, oferecendo mais de 1.500 m² de espaço dedicado a equipamentos de ginástica de última geração de marcas líderes como Hammer Strength, Life Fitness e TechnoGym."
                             thumb='/thumbs/gym24.png'
                             stack={[
                                 'Typescript',
@@ -89,7 +89,7 @@ export default function Projects() {
                             ]}
                             plataform="Aplicação Web"
                             github="https://github.com/ErykOlliver/Gym24"
-                            page="https://teamgeesh.github.io/geesh-website/"
+                            page="https://gym24-zeta.vercel.app/"
                             function="Programador"
                             designer="VEHA"
                             designer_page="https://www.figma.com/community/file/1260888393015798147/landing-page-gym-template-in-figma"
